@@ -19,7 +19,6 @@
 		164C8B7C1C0D36500007A6B1 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8C1A7F2C700017187F /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		164C8B7D1C0D36500007A6B1 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8A1A7F2C700017187F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		164C8B7E1C0D36500007A6B1 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B1046A8B1A7F2C700017187F /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164C8B8B1C0D37BF0007A6B1 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164C8B831C0D36500007A6B1 /* PureLayout.framework */; };
 		164C8B8C1C0D37C70007A6B1 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164C8B831C0D36500007A6B1 /* PureLayout.framework */; };
 		164C8B8D1C0D37C70007A6B1 /* PureLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 164C8B831C0D36500007A6B1 /* PureLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		567E6C881C4125C60031B78F /* ALiOSDemo11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567E6C861C4125C60031B78F /* ALiOSDemo11ViewController.m */; };
@@ -342,7 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				164C8B8C1C0D37C70007A6B1 /* PureLayout.framework in Frameworks */,
-				164C8B8B1C0D37BF0007A6B1 /* PureLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -921,8 +919,9 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AL;
+				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 				TargetAttributes = {
 					164C8B4D1C0D354E0007A6B1 = {
 						CreatedOnToolsVersion = 7.1;
