@@ -928,6 +928,8 @@
 					};
 					B1046AAF1A7F32380017187F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2JP854HHCW;
+						DevelopmentTeamName = LifeCentrics;
 					};
 					B1046AD71A7F32790017187F = {
 						CreatedOnToolsVersion = 6.1.1;
