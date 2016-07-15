@@ -13,12 +13,12 @@ import PureLayout
 class iOSDemo7ViewController: UIViewController {
     
     let blueView: UIView = {
-        let view = UIView.newAutoLayoutView()
+        let view = UIView.newAutoLayout()
         view.backgroundColor = .blueColor()
         return view
         }()
     let redView: UIView = {
-        let view = UIView.newAutoLayoutView()
+        let view = UIView.newAutoLayout()
         view.backgroundColor = .redColor()
         return view
         }()

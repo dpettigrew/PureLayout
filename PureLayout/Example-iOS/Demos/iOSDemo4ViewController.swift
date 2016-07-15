@@ -13,7 +13,7 @@ import PureLayout
 class iOSDemo4ViewController: UIViewController {
     
     let blueLabel: UILabel = {
-        let label = UILabel.newAutoLayoutView()
+        let label = UILabel.newAutoLayout()
         label.backgroundColor = .blueColor()
         label.numberOfLines = 1
         label.lineBreakMode = .ByClipping
@@ -22,7 +22,7 @@ class iOSDemo4ViewController: UIViewController {
         return label
         }()
     let redLabel: UILabel = {
-        let label = UILabel.newAutoLayoutView()
+        let label = UILabel.newAutoLayout()
         label.backgroundColor = .redColor()
         label.numberOfLines = 0
         label.textColor = .whiteColor()
@@ -30,7 +30,7 @@ class iOSDemo4ViewController: UIViewController {
         return label
         }()
     let greenView: UIView = {
-        let view = UIView.newAutoLayoutView()
+        let view = UIView.newAutoLayout()
         view.backgroundColor = .greenColor()
         return view
         }()

@@ -13,19 +13,19 @@ import PureLayout
 class iOSDemo5ViewController: UIViewController {
     
     let blueView: UIView = {
-        let view = UIView.newAutoLayoutView()
+        let view = UIView.newAutoLayout()
         view.backgroundColor = .blueColor()
         view.layer.borderColor = UIColor.lightGrayColor().CGColor
         view.layer.borderWidth = 0.5
         return view
         }()
     let redView: UIView = {
-        let view = UIView.newAutoLayoutView()
+        let view = UIView.newAutoLayout()
         view.backgroundColor = .redColor()
         return view
         }()
     let purpleLabel: UILabel = {
-        let label = UILabel.newAutoLayoutView()
+        let label = UILabel.newAutoLayout()
         label.backgroundColor = UIColor(red: 1.0, green: 0, blue: 1.0, alpha: 0.3) // semi-transparent purple
         label.textColor = .whiteColor()
         label.text = "The quick brown fox jumps over the lazy dog"

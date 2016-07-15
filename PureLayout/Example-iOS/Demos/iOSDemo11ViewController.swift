@@ -12,11 +12,11 @@ import PureLayout
 @objc(iOSDemo11ViewController)
 class iOSDemo11ViewController: UIViewController {
     
-    let scrollView  = UIScrollView.newAutoLayoutView()
-    let contentView = UIView.newAutoLayoutView()
+    let scrollView  = UIScrollView.newAutoLayout()
+    let contentView = UIView.newAutoLayout()
     
     let blueLabel: UILabel = {
-        let label = UILabel.newAutoLayoutView()
+        let label = UILabel.newAutoLayout()
         label.backgroundColor = .blueColor()
         label.numberOfLines = 0
         label.lineBreakMode = .ByClipping
